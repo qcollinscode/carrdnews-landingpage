@@ -1,0 +1,1110 @@
+html, html body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-before: 0em;
+  margin-after: 0em;
+  margin-start: 0px;
+  margin-end: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "open sans", arial;
+}
+
+p, li {
+  font-family: "open sans", arial;
+}
+
+body {
+  background-color: dimgrey;
+}
+
+@media screen and (min-width: 0em) {
+  /* SMALL DEVICE */
+  .title h1 {
+    /* TITLE */
+    background: black;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    text-indent: 0.9em;
+    box-shadow: 0px 0px 13px 1px black;
+    position: relative;
+    text-shadow: 3.6px 1px 1px black;
+    color: #fff;
+  }
+
+  .cd-wrapper {
+    /* CARD WRAPPER */
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .cd-wrapper .cd-sect {
+    /* CARD SECTION */
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em;
+  }
+  .cd-wrapper .cd-sect .cd-con {
+    /* CARD */
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(45deg, #cc0000 0%, #561010 110%);
+    box-shadow: 0em 0em 0.9em 0.2em black;
+  }
+  .cd-wrapper .cd-sect .cd-con a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .cd-wrapper .cd-sect .cd-con a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  .cd-wrapper .cd-sect .cd-con a:hover {
+    color: grey;
+    text-decoration: none;
+  }
+  .cd-wrapper .cd-sect .cd-con a:active {
+    color: #fff;
+    text-decoration: none;
+  }
+  .cd-wrapper .cd-sect .cd-con a:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+  .cd-wrapper .cd-sect .cd-con span {
+    /* CARD HEADING TITLE */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+  }
+  .cd-wrapper .cd-sect .cd-con span h1 {
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
+  }
+  .cd-wrapper .cd-sect .cd-con .pic {
+    /* CARD HEADING PICTURE CONTAINER */
+    position: relative;
+    height: 19em;
+    width: 100%;
+    overflow: hidden;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title1 + .pic > video {
+    /* CARD 1 HEADING PICTURE */
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title2 + .pic {
+    background-image: url(../../img/putin.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title3 + .pic {
+    background-image: url(../../img/ebola.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title4 + .pic {
+    background-image: url(../../img/snapchat.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title5 + .pic {
+    background-image: url(../../img/pigs.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title6 + .pic {
+    background-image: url(../../img/macbook.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title7 + .pic {
+    background-image: url(../../img/travel1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title8 + .pic {
+    background-image: url(../../img/fashion2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title9 + .pic {
+    background-image: url(../../img/kanye.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title10 + .pic {
+    background-image: url(../../img/fruity.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title11 + .pic {
+    background-image: url(../../img/halo.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title12 + .pic {
+    background-image: url(../../img/kaepernick1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title13 + .pic {
+    background-image: url(../../img/paulryan.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title14 + .pic {
+    background-image: url(../../img/putin.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title15 + .pic {
+    background-image: url(../../img/ebola.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con .cd-title16 + .pic {
+    background-image: url(../../img/snapchat.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cd-wrapper .cd-sect .cd-con ul {
+    padding: 1.1em;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li {
+    list-style: none;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px dotted white;
+    min-height: 2.4em;
+    position: relative;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .preview {
+    height: 5em;
+    min-height: 5em;
+    width: 5em;
+    min-width: 5em;
+    margin-right: 0.7em;
+    background-image: url(../../img/paulryan.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    position: relative;
+    border-radius: 9px;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .info-bloc {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .info-bloc .usr-time {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    margin-bottom: 8px;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .info-bloc .usr-time .fa-user {
+    color: white;
+    margin-right: 7px;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .info-bloc .usr-time p:nth-child(2) {
+    color: white;
+    font-style: italic;
+    -ms-flex: 1;
+        flex: 1;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .info-bloc .usr-time p:nth-child(3) {
+    color: white;
+    display: -ms-flexbox;
+    display: flex;
+    width: 3em;
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .info-bloc .usr-time p:nth-child(3) .fa-clock-o {
+    color: white;
+    margin-right: 7px;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .info-bloc .usr-time p:nth-child(3) span {
+    padding: 0;
+    width: 1.2em;
+  }
+  .cd-wrapper .cd-sect .cd-con ul li .info-bloc .src {
+    width: 100%;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  .cd-wrapper .cd-sect .cd1 {
+    /* CARD 1 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(0, 0, 204, 0.2) 0%, #101056 110%);
+  }
+  .cd-wrapper .cd-sect .cd3 {
+    /* CARD 3 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(110, 110, 0, 0.4) 0%, #747110 110%);
+  }
+  .cd-wrapper .cd-sect .cd4 {
+    /* CARD 4 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(70, 70, 70, 0.3) 0%, #4c4c4c 110%);
+  }
+  .cd-wrapper .cd-sect .cd5 {
+    /* CARD 5 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(10, 80, 250, 0.5) 0%, #103fba 110%);
+  }
+  .cd-wrapper .cd-sect .cd6 {
+    /* CARD 6 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(60, 36, 70, 0.6) 0%, #42212e 100%);
+  }
+  .cd-wrapper .cd-sect .cd7 {
+    /* CARD 7 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(104, 210, 220, 0.1) 0%, #74d8d8 110%);
+  }
+  .cd-wrapper .cd-sect .cd8 {
+    /* CARD 8 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(210, 36, 70, 0.9) 0%, #741738 110%);
+  }
+  .cd-wrapper .cd-sect .cd9 {
+    /* CARD 9 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(6, 36, 70, 0.2) 0%, #103f74 110%);
+  }
+  .cd-wrapper .cd-sect .cd10 {
+    /* CARD 10 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(26, 83, 6, 0.2) 0%, #103f10 110%);
+  }
+  .cd-wrapper .cd-sect .cd11 {
+    /* CARD 11 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(125, 25, 20, 0.9) 0%, #92171a 110%);
+  }
+  .cd-wrapper .cd-sect .cd12 {
+    /* CARD 12 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(210, 82, 20, 0.5) 0%, #d83f10 110%);
+  }
+  .cd-wrapper .cd-sect .cd13 {
+    /* CARD 12 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(0, 0, 204, 0.2) 0%, #101056 110%);
+  }
+  .cd-wrapper .cd-sect .cd14 {
+    /* CARD 12 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(110, 110, 0, 0.4) 0%, #747110 110%);
+  }
+  .cd-wrapper .cd-sect .cd15 {
+    /* CARD 12 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(70, 70, 70, 0.3) 0%, #4c4c4c 110%);
+  }
+  .cd-wrapper .cd-sect .cd16 {
+    /* CARD 12 BACKGROUND COLOR */
+    background: linear-gradient(45deg, rgba(10, 80, 250, 0.5) 0%, #103fba 110%);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd1 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd2 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd3 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd4 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd5 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd6 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd7 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd8 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd9 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd10 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd11 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd12 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd13 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd14 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd15 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(1) .preview {
+    background-image: url(../../img/ivanka.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(2) .preview {
+    background-image: url(../../img/fashion1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(3) .preview {
+    background-image: url(../../img/fashion2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(4) .preview {
+    background-image: url(../../img/fashion3.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(5) .preview {
+    background-image: url(../../img/fashion4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(6) .preview {
+    background-image: url(../../img/travel1.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(7) .preview {
+    background-image: url(../../img/travel2.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(8) .preview {
+    background-image: url(../../img/fashion5.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(9) .preview {
+    background-image: url(../../img/travel4.jpg);
+  }
+  .cd-wrapper .cd-sect .cd16 ul li:nth-child(10) .preview {
+    background-image: url(../../img/travel6.jpg);
+  }
+
+  footer {
+    position: relative;
+    width: 100%;
+    height: 38em;
+    background: black;
+    color: white;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: grey;
+    text-decoration: none;
+  }
+  footer a:active {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer a:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer .sub-con {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    width: 100%;
+    height: 8em;
+    background: linear-gradient(45deg, rgba(0, 0, 204, 0.2) 0%, #101056 110%);
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  footer .sub-con .emailbox {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  footer .sub-con .emailbox .box {
+    margin: 1px auto;
+    width: 300px;
+    height: 30px;
+  }
+  footer .sub-con .emailbox .box .container-1 {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  footer .sub-con .emailbox .box .container-1 #email {
+    width: 300px;
+    height: 50px;
+    background: #c8c8c8;
+    border: none;
+    font-size: 16pt;
+    float: left;
+    color: dimgrey;
+    padding-left: 10px;
+    border-radius: 5px;
+    transition: background 0.55s ease, color 0.55s ease;
+    text-decoration: none;
+  }
+  footer .sub-con .emailbox .box .container-1 #email::-webkit-input-placeholder {
+    color: grey;
+    transition: color 0.55s ease;
+  }
+  footer .sub-con .emailbox .box .container-1 #email::-ms-input-placeholder {
+    color: grey;
+    transition: color 0.55s ease;
+  }
+  footer .sub-con .emailbox .box .container-1 #email:-moz-input-placeholder {
+    color: grey;
+    transition: color 0.55s ease;
+  }
+  footer .sub-con .emailbox .box .container-1 #email::-moz-input-placeholder {
+    color: grey;
+    transition: color 0.55s ease;
+  }
+  footer .sub-con .emailbox .box .container-1 #email:focus {
+    outline: none;
+    background: white;
+    color: black;
+  }
+  footer .sub-con .emailbox .box .container-1 #email:active {
+    outline: none;
+    background: white;
+    color: black;
+  }
+  footer .footer-main-con {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    width: 100%;
+    position: relative;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background: #000;
+  }
+  footer .footer-main-con .sec1 {
+    margin-right: 6.2em;
+    padding: 4em 0em 2.8em 0em;
+  }
+  footer .footer-main-con .sec1 h1 {
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    font-size: 1.2em;
+    background: linear-gradient(45deg, rgba(0, 0, 204, 0.2) 0%, #101056 110%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+  }
+  footer .footer-main-con .sec1 ul {
+    padding-bottom: 0.5em;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  footer .footer-main-con .sec1 ul li {
+    padding: 0.2em 0em;
+    margin-left: 0.3em;
+  }
+  footer .footer-main-con .sec2 {
+    padding: 4em 0em 2.8em 0em;
+  }
+  footer .footer-main-con .sec2 h1 {
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    font-size: 1.2em;
+    background: linear-gradient(45deg, rgba(0, 0, 204, 0.2) 0%, #101056 110%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+  }
+  footer .footer-main-con .sec2 ul {
+    padding-bottom: 0.5em;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  footer .footer-main-con .sec2 ul li {
+    padding: 0.2em 0em;
+    margin-left: 0.3em;
+  }
+  footer .info-con {
+    height: 3em;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    background: linear-gradient(45deg, rgba(0, 0, 204, 0.2) 0%, #101056 110%);
+    position: relative;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    font-size: 0.9em;
+  }
+  footer .info-con p {
+    position: relative;
+    padding-top: 0.3em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-left: 0.2em;
+    left: 1em;
+    font-weight: bold;
+  }
+  footer .info-con .ico-con {
+    position: relative;
+    font-size: 1.5em;
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 20%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row;
+        flex-flow: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .info-con .ico-con a {
+    padding: 0.2em;
+  }
+}
+@media screen and (min-width: 39em) {
+  /* MEDIUM DEVICE */
+  .title h1 {
+    /* TITLE */
+    background: black;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    text-indent: 0.9em;
+    box-shadow: 0px 0px 13px 1px black;
+    position: relative;
+    text-shadow: 3.6px 1px 1px black;
+    color: #fff;
+  }
+
+  .cd-wrapper {
+    /* CARD WRAPPER */
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .cd-wrapper .cd-sect {
+    /* CARD SECTION */
+    width: 48%;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em;
+  }
+}
+@media screen and (min-width: 60em) {
+  /* LARGE DEVICE */
+  .title h1 {
+    /* TITLE */
+    background: black;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    text-indent: 0.9em;
+    box-shadow: 0px 0px 13px 1px black;
+    position: relative;
+    text-shadow: 3.6px 1px 1px black;
+    color: #fff;
+  }
+
+  .cd-wrapper {
+    /* CARD WRAPPER */
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .cd-wrapper .cd-sect {
+    /* CARD SECTION */
+    width: 31.8%;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em;
+  }
+}
+@media screen and (min-width: 90em) {
+  /* XLARGE DEVICE */
+  .title h1 {
+    /* TITLE */
+    background: black;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    text-indent: 0.9em;
+    box-shadow: 0px 0px 13px 1px black;
+    position: relative;
+    text-shadow: 3.6px 1px 1px black;
+    color: #fff;
+  }
+
+  .cd-wrapper {
+    /* CARD WRAPPER */
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .cd-wrapper .cd-sect {
+    /* CARD SECTION */
+    width: 24%;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em;
+  }
+}

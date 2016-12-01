@@ -1,0 +1,607 @@
+
+// LINKS
+=links
+  a
+    color: $link-color
+    text-decoration: none
+    &:visited
+      color: $visited-color
+      text-decoration: none
+    &:hover
+      color: $hover-color
+      text-decoration: none
+    &:active
+      color: $active-color
+      text-decoration: none
+    &:focus
+      color: $focus-color
+      text-decoration: none
+
+// MAIN TITLE
+=main-title
+  .title h1
+    /* TITLE */
+    background: black
+    margin: 0
+    padding: 10px 0px 10px 0px
+    text-indent: 0.9em
+    box-shadow: 0px 0px 13px 1px black
+    position: relative
+    text-shadow: 3.6px 1px 1px black
+    color: $title-color
+
+// CARDS WRAPPER
+=cd-wrapper($direction)
+  .cd-wrapper
+    /* CARD WRAPPER */
+    position: relative
+    display: flex
+    flex-direction: $direction
+    flex-wrap: wrap
+    width: 95%
+    margin: $center
+    @content
+
+// CARD SECTION
+=cd-section($section-width)
+  .cd-sect
+    /* CARD SECTION */
+    width: $section-width
+    margin: $center
+    padding: 1em 0em 1em 0em
+    @content
+
+// CARD
+=cd($cd-width)
+  .cd-con
+    /* CARD */
+    border-radius: 15px
+    overflow: hidden
+    width: $cd-width
+    background: $color-red
+    box-shadow: $box-shadow
+    @content
+
+// CARD BACKGROUND COLORS
+=cd-bg-colors($cd1, $cd3, $cd4, $cd5, $cd6, $cd7, $cd8, $cd9, $cd10, $cd11, $cd12, $cd13, $cd14, $cd15, $cd16)
+  .cd1
+    /* CARD 1 BACKGROUND COLOR*/
+    background: $cd1
+  .cd3
+    /* CARD 3 BACKGROUND COLOR*/
+    background: $cd3
+  .cd4
+    /* CARD 4 BACKGROUND COLOR*/
+    background: $cd4
+  .cd5
+    /* CARD 5 BACKGROUND COLOR*/
+    background: $cd5
+  .cd6
+    /* CARD 6 BACKGROUND COLOR*/
+    background: $cd6
+  .cd7
+    /* CARD 7 BACKGROUND COLOR*/
+    background: $cd7
+  .cd8
+    /* CARD 8 BACKGROUND COLOR*/
+    background: $cd8
+  .cd9
+    /* CARD 9 BACKGROUND COLOR*/
+    background: $cd9
+  .cd10
+    /* CARD 10 BACKGROUND COLOR*/
+    background: $cd10
+  .cd11
+    /* CARD 11 BACKGROUND COLOR*/
+    background: $cd11
+  .cd12
+    /* CARD 12 BACKGROUND COLOR*/
+    background: $cd12
+
+  .cd13
+    /* CARD 12 BACKGROUND COLOR*/
+    background: $cd13
+
+  .cd14
+    /* CARD 12 BACKGROUND COLOR*/
+    background: $cd14
+
+  .cd15
+    /* CARD 12 BACKGROUND COLOR*/
+    background: $cd15
+
+  .cd16
+    /* CARD 12 BACKGROUND COLOR*/
+    background: $cd16
+
+// CARD TITLE
+=cd-title
+  span
+    /* CARD HEADING TITLE*/
+    display: flex
+    flex-direction: row
+    position: relative
+    padding: 10px 0px 10px 0px
+    width: 100%
+    h1
+      text-transform: uppercase
+      color: white
+      margin: $center
+
+// CARD MAIN PICTURES
+=cd-pic
+  .pic
+    /* CARD HEADING PICTURE CONTAINER*/
+    position: relative
+    height: 19em
+    width: 100%
+    overflow: hidden
+
+// PICTURE 1
+=cd-pic1($bg-src, $bg-size)
+  .cd-title1 + .pic > video
+    /* CARD 1 HEADING PICTURE */
+    min-width: 100%
+    height: 100%
+    position: absolute
+
+
+// PICTURE 2
+=cd-pic2($bg-src, $bg-size)
+  .cd-title2 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 3
+=cd-pic3($bg-src, $bg-size)
+  .cd-title3 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 4
+=cd-pic4($bg-src, $bg-size)
+  .cd-title4 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 5
+=cd-pic5($bg-src, $bg-size)
+  .cd-title5 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 6
+=cd-pic6($bg-src, $bg-size)
+  .cd-title6 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 7
+=cd-pic7($bg-src, $bg-size)
+  .cd-title7 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 8
+=cd-pic8($bg-src, $bg-size)
+  .cd-title8 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 9
+=cd-pic9($bg-src, $bg-size)
+  .cd-title9 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 10
+=cd-pic10($bg-src, $bg-size)
+  .cd-title10 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 11
+=cd-pic11($bg-src, $bg-size)
+  .cd-title11 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 12
+=cd-pic12($bg-src, $bg-size)
+  .cd-title12 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+
+// PICTURE 13
+=cd-pic13($bg-src, $bg-size)
+  .cd-title13 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 14
+=cd-pic14($bg-src, $bg-size)
+  .cd-title14 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 15
+=cd-pic15($bg-src, $bg-size)
+  .cd-title15 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+// PICTURE 16
+=cd-pic16($bg-src, $bg-size)
+  .cd-title16 + .pic
+    background-image: $bg-src
+    background-position: center
+    background-size: $bg-size
+
+
+// CARD LIST
+=cd-list
+  ul
+    padding: 1.1em
+    li
+      list-style: none
+      margin-bottom: 0.6em
+      padding-bottom: 0.4em
+      border-bottom: 1px dotted white
+      min-height: 2.4em
+      position: relative
+      overflow: hidden
+      display: flex
+      flex-direction: row
+      @content
+
+// CARD LIST ICONS
+=cd-list-icon
+  color: white
+  margin-right: 7px
+
+// INFO CONTAINER
+=Info-container
+  .info-bloc
+    display: flex
+    flex-direction: column
+    position: relative
+    overflow: hidden
+    width: 100%
+    @content
+
+// PREVIEW PICTURE
+=Preview-container
+  .preview
+    height: 5em
+    min-height: 5em
+    width: 5em
+    min-width: 5em
+    margin-right: 0.7em
+    background-image: url(../../img/paulryan.jpg)
+    background-size: cover
+    background-position: center
+    float: left
+    position: relative
+    border-radius: 9px
+    @content
+=Preview-list($preview1, $preview2, $preview3, $preview4, $preview5, $preview6, $preview7, $preview8, $preview9, $preview10)
+  ul
+    li:nth-child(1)
+      .preview
+        background-image: $preview1
+    li:nth-child(2)
+      .preview
+        background-image: $preview2
+    li:nth-child(3)
+      .preview
+        background-image: $preview3
+    li:nth-child(4)
+      .preview
+        background-image: $preview4
+    li:nth-child(5)
+      .preview
+        background-image: $preview5
+    li:nth-child(6)
+      .preview
+        background-image: $preview6
+    li:nth-child(7)
+      .preview
+        background-image: $preview7
+    li:nth-child(8)
+      .preview
+        background-image: $preview8
+    li:nth-child(9)
+      .preview
+        background-image: $preview9
+    li:nth-child(10)
+      .preview
+        background-image: $preview10
+
+=cd1-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd1
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd2-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd2
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd3-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd3
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd4-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd4
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd5-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd5
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd6-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd6
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd7-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd7
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd8-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd8
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd9-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd9
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd10-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd10
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd11-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd11
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd12-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd12
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd13-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd13
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd14-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd14
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd15-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd15
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+=cd16-previews($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+  .cd16
+    +Preview-list($preview1,$preview2,$preview3,$preview4,$preview5,$preview6,$preview7,$preview8,$preview9,$preview10)
+
+// USER AND TIME CONTAINER
+=User-time-container
+  .usr-time
+    display: flex
+    flex-direction: row
+    margin-bottom: 8px
+    @content
+
+// USER
+=User
+  .fa-user
+    +cd-list-icon
+  p:nth-child(2)
+    color: white
+    font-style: italic
+    flex: 1
+
+// TIME
+=Time
+  p:nth-child(3)
+    color: white
+    display: flex
+    width: 3em
+    flex-direction: row
+    .fa-clock-o
+      +cd-list-icon
+    span
+      padding: 0
+      width: 1.2em
+
+// INFO CONTAINER LINK
+=Info-link
+  .src
+    width: 100%
+    margin-top: 10px
+    font-style: italic
+
+
+// FOOTER
+=footer
+  footer
+    position: relative
+    width: 100%
+    height: 38em
+    background: rgba(0, 0, 0, 1)
+    color: white
+    display: flex
+    flex-flow: column
+    justify-content: space-around
+    @content
+
+// FOOTER EMAIL SECTION
+=footer-email
+  .sub-con
+    display: flex
+    position: relative
+    flex-direction: row
+    width: 100%
+    height: 8em
+    background: $color-bluedark
+    justify-content: center
+    .emailbox
+      align-self: center
+      .box
+        margin: 1px auto
+        width: 300px
+        height: 30px
+        .container-1
+          width: 300px
+          vertical-align: middle
+          white-space: nowrap
+          position: relative
+          #email
+            width: 300px
+            height: 50px
+            background: rgba(200, 200, 200, 1)
+            border: none
+            font-size: 16pt
+            float: left
+            color: dimgrey
+            padding-left: 10px
+            border-radius: 5px
+            transition: background .55s ease, color .55s ease
+            text-decoration: none
+            &::-webkit-input-placeholder
+              color: grey
+              transition: color .55s ease
+            &::-ms-input-placeholder
+              color: grey
+              transition: color .55s ease
+            &:-moz-input-placeholder
+              color: grey
+              transition: color .55s ease
+            &::-moz-input-placeholder
+              color: grey
+              transition: color .55s ease
+            &:focus
+              outline: none
+              background: white
+              color: black
+            &:active
+              outline: none
+              background: white
+              color: black
+
+=footer-main-section-container($footer-color)
+  .footer-main-con
+    display: flex
+    flex-direction: row
+    width: 100%
+    position: relative
+    justify-content: center
+    background: $footer-color
+    @content
+
+=footer-title
+  text-transform: uppercase
+  margin-bottom: 0.5em
+  font-weight: bold
+  letter-spacing: 0.1em
+  padding: 0.4em 0.4em 0.4em 0.4em
+  font-size: 1.2em
+  background: $color-bluedark
+  border-top-left-radius: 15px
+  border-top-right-radius: 15px
+  position: relative
+
+=footer-section
+  padding: 4em 0em 2.8em 0em
+
+=footer-ul
+  padding-bottom: 0.5em
+  border-bottom-left-radius: 15px
+  border-bottom-right-radius: 15px
+
+=footer-li
+  padding: 0.2em 0em
+  margin-left: 0.3em
+
+=footer-section1
+  .sec1
+    margin-right: 6.2em
+    +footer-section
+    h1
+      +footer-title
+    ul
+      +footer-ul
+      li
+        +footer-li
+
+
+=footer-section2
+  .sec2
+    +footer-section
+    h1
+      +footer-title
+    ul
+      +footer-ul
+      li
+        +footer-li
+
+=footer-footer
+  .info-con
+    height: 3em
+    width: 100%
+    display: flex
+    flex-direction: row
+    background: $color-bluedark
+    position: relative
+    justify-content: space-between
+    font-size: 0.9em
+    p
+      position: relative
+      padding-top: 0.3em
+      align-self: center
+      padding-left: 0.2em
+      left: 1em
+      font-weight: bold
+    @content
+
+=footer-footer-icons
+  .ico-con
+    position: relative
+    font-size: 1.5em
+    align-self: center
+    width: 20%
+    display: flex
+    flex-flow: row
+    justify-content: space-around
+    a
+      padding: 0.2em
+
+// MEDIA QUERIES
+
+=bp-xlarge
+  @media screen and (min-width: 90em)
+    @content
+
+=bp-large
+  @media screen and (min-width: 60em)
+    @content
+
+=bp-medium
+  @media screen and (min-width: 39em)
+    @content
+
+=bp-small
+  @media screen and (min-width: 0em)
+    @content
